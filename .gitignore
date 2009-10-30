@@ -22,7 +22,7 @@ PrecompiledWeb
 Thumbs.db    # Having images in the source tree generates those files in Explorer
 
 
-
+LuceneIndex
 
 obj
 

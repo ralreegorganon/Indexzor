@@ -4,6 +4,48 @@
         <name>Snowball.Net</name>
     </assembly>
     <members>
+        <member name="T:SF.Snowball.Ext.SpanishStemmer">
+            <summary> Generated class implementing code defined by a snowball script.</summary>
+        </member>
+        <member name="M:SF.Snowball.SnowballProgram.GetCurrent">
+            <summary> Get the current string.</summary>
+        </member>
+        <member name="M:SF.Snowball.SnowballProgram.SetCurrent(System.String)">
+            <summary> Set the current string.</summary>
+        </member>
+        <member name="T:SF.Snowball.Ext.NorwegianStemmer">
+            <summary> Generated class implementing code defined by a snowball script.</summary>
+        </member>
+        <member name="T:SF.Snowball.Ext.EnglishStemmer">
+            <summary> Generated class implementing code defined by a snowball script.</summary>
+        </member>
+        <member name="T:SF.Snowball.Ext.FinnishStemmer">
+            <summary> Generated class implementing code defined by a snowball script.</summary>
+        </member>
+        <member name="T:SF.Snowball.Ext.ItalianStemmer">
+            <summary> Generated class implementing code defined by a snowball script.</summary>
+        </member>
+        <member name="T:SF.Snowball.Ext.FrenchStemmer">
+            <summary> Generated class implementing code defined by a snowball script.</summary>
+        </member>
+        <member name="T:SF.Snowball.Ext.SwedishStemmer">
+            <summary> Generated class implementing code defined by a snowball script.</summary>
+        </member>
+        <member name="T:SF.Snowball.Ext.German2Stemmer">
+            <summary> Generated class implementing code defined by a snowball script.</summary>
+        </member>
+        <member name="T:SF.Snowball.Ext.KpStemmer">
+            <summary> Generated class implementing code defined by a snowball script.</summary>
+        </member>
+        <member name="T:SF.Snowball.Ext.RussianStemmer">
+            <summary> Generated class implementing code defined by a snowball script.</summary>
+        </member>
+        <member name="T:SF.Snowball.Ext.PortugueseStemmer">
+            <summary> Generated class implementing code defined by a snowball script.</summary>
+        </member>
+        <member name="T:SF.Snowball.Ext.DanishStemmer">
+            <summary> Generated class implementing code defined by a snowball script.</summary>
+        </member>
         <member name="T:Lucene.Net.Analysis.Snowball.SnowballFilter">
             <summary>A filter that stems words using a Snowball-generated stemmer.
             
@@ -44,58 +86,16 @@
             StandardFilter}, a {@link LowerCaseFilter} and a {@link StopFilter}. 
             </summary>
         </member>
-        <member name="T:SF.Snowball.Ext.NorwegianStemmer">
-            <summary> Generated class implementing code defined by a snowball script.</summary>
-        </member>
-        <member name="M:SF.Snowball.SnowballProgram.GetCurrent">
-            <summary> Get the current string.</summary>
-        </member>
-        <member name="M:SF.Snowball.SnowballProgram.SetCurrent(System.String)">
-            <summary> Set the current string.</summary>
-        </member>
-        <member name="T:SF.Snowball.Ext.KpStemmer">
-            <summary> Generated class implementing code defined by a snowball script.</summary>
-        </member>
-        <member name="T:SF.Snowball.Ext.DutchStemmer">
-            <summary> Generated class implementing code defined by a snowball script.</summary>
-        </member>
-        <member name="T:SF.Snowball.Ext.RussianStemmer">
-            <summary> Generated class implementing code defined by a snowball script.</summary>
-        </member>
-        <member name="T:SF.Snowball.Ext.DanishStemmer">
-            <summary> Generated class implementing code defined by a snowball script.</summary>
-        </member>
         <member name="T:SF.Snowball.Ext.LovinsStemmer">
             <summary> Generated class implementing code defined by a snowball script.</summary>
         </member>
         <member name="T:SF.Snowball.Ext.GermanStemmer">
             <summary> Generated class implementing code defined by a snowball script.</summary>
         </member>
-        <member name="T:SF.Snowball.Ext.EnglishStemmer">
-            <summary> Generated class implementing code defined by a snowball script.</summary>
-        </member>
-        <member name="T:SF.Snowball.Ext.SpanishStemmer">
-            <summary> Generated class implementing code defined by a snowball script.</summary>
-        </member>
         <member name="T:SF.Snowball.Ext.PorterStemmer">
             <summary> Generated class implementing code defined by a snowball script.</summary>
         </member>
-        <member name="T:SF.Snowball.Ext.FinnishStemmer">
-            <summary> Generated class implementing code defined by a snowball script.</summary>
-        </member>
-        <member name="T:SF.Snowball.Ext.ItalianStemmer">
-            <summary> Generated class implementing code defined by a snowball script.</summary>
-        </member>
-        <member name="T:SF.Snowball.Ext.SwedishStemmer">
-            <summary> Generated class implementing code defined by a snowball script.</summary>
-        </member>
-        <member name="T:SF.Snowball.Ext.German2Stemmer">
-            <summary> Generated class implementing code defined by a snowball script.</summary>
-        </member>
-        <member name="T:SF.Snowball.Ext.PortugueseStemmer">
-            <summary> Generated class implementing code defined by a snowball script.</summary>
-        </member>
-        <member name="T:SF.Snowball.Ext.FrenchStemmer">
+        <member name="T:SF.Snowball.Ext.DutchStemmer">
             <summary> Generated class implementing code defined by a snowball script.</summary>
         </member>
     </members>

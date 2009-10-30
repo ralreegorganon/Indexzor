@@ -6,9 +6,6 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <span><%= Model.SearchResults.Count %> records found</span>
-    <br />
-    <% foreach (var searchResult in Model.SearchResults) { %>
-        <span><%= searchResult.Title %>: <em><%= searchResult.Path %></em></span>            
-    <% } %>
+    <div><%= Model.SearchResults.Count() %> records found</div>
+    <% foreach (var searchResult in Model.SearchResults) { Html.RenderPartial("SearchResult", searchResult); } %>
 </asp:Content>

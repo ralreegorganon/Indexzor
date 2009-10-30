@@ -5,7 +5,7 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <% using(Html.BeginForm("Search","Search")) { %>
+    <% using(Html.BeginForm<SearchController>(c => c.Search(null))) { %>
         <%= Html.TextBox("Query") %>
         <input type="submit" value="Search" />
     <% } %>
